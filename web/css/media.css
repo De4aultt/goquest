@@ -1,0 +1,93 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.righted{
+	text-align: left;
+}
+.information_q h2{
+	text-align: center;
+}
+.information_q img{
+	height: 350px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.c-hamburger {
+		display: block;
+	}
+	.mainnav{
+		display: none;
+	}
+	.topline{
+		height: 75px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.profile img{
+		height: 350px;
+	}
+	.quest p{
+		font-size: 16px;
+	}
+	li{
+		font-size: 25px;
+	}
+	.signin h1, .quest h1{
+		font-size: 40px;
+	}
+	.text p{
+		font-size: 20px;
+	}
+	.signin h1::before, .signin h1::after{
+		display: none;
+	}
+
+	.button{
+		font-size: 25px;
+		width: 175px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+}
